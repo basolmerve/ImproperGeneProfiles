@@ -23,7 +23,6 @@ Code and data accompanying the manuscript “Enhancing Differential Expression A
 - `saved/`
   - `Simulation/simRes.Rda`: Serialized simulation results (true detection rates across scenarios).
   - `Cervical/Cervical_results.Rda`: Serialized DE/ROC results for the cervical dataset.
-- `manuscript.pdf`: Preprint describing the study design, methods, and findings.
 - `LROC.Rproj`: RStudio project file for convenience.
 - `LICENSE`: Repository license.
 
