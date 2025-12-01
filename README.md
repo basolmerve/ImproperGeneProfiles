@@ -37,7 +37,7 @@ Code and data accompanying the manuscript “Enhancing Differential Expression A
 - **Real data (cervical miRNA-Seq, 29 vs 29)**: gAUC and LROC highlight additional biologically plausible improper miRNAs beyond DESeq2 hits; joint gAUC–LROC–cAUC plots visually separate improper from proper profiles.
 
 ## How to run
-1. Open the project in R or RStudio (`LROC.Rproj`).
+1. Open the project in R or RStudio (`improperGeneProfiles.Rproj`).
 2. Ensure required packages: `DESeq2`, `tidyverse`, `nsROC`, `parallel`, `patchwork`, `ggrepel`, `ggtext` (see `R/simulation.R` and `R/cervical.R` for full list).
 3. Simulations: run `Rscript R/simulation.R` to regenerate detection-rate summaries and figures (adjust `nSim` and cluster settings as needed).
 4. Cervical analysis: run `Rscript R/cervical.R` to reproduce the miRNA study outputs; results saved to `saved/Cervical/Cervical_results.Rda` and plots in `figure/Cervical/`.
